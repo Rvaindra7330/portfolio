@@ -48,11 +48,11 @@ export default function Hero() {
         className="w-48 h-48 rounded-full overflow-hidden border border-white/20"
       >
         <Image
-          src="/profile.jpg"
+          src="/profilee.jpg"
           alt="Profile"
           
-          width={200}   
-          height={200} 
+          width={200}
+          height={200}
           className="rounded-full object-cover"
         />
       </motion.div>
