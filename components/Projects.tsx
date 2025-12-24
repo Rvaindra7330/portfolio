@@ -61,7 +61,7 @@ export default function Projects() {
             whileHover={{ y: -6 }}
             className="rounded-xl border border-white/10 bg-white/5 backdrop-blur-md p-6 flex flex-col"
           >
-            {/* Project Image */}
+            
             <div className="relative w-full h-48 rounded-md overflow-hidden mb-4 border border-white/20">
               <Image
                 src={p.image}
@@ -72,11 +72,11 @@ export default function Projects() {
               />
             </div>
 
-            {/* Project Title and Description */}
+          
             <h3 className="text-xl font-medium mb-2">{p.name}</h3>
             <p className="text-gray-400 mb-4 flex-grow">{p.desc}</p>
 
-            {/* Technologies */}
+            
             <div className="flex flex-wrap gap-2 mb-4">
               {p.tech.map((t) => (
                 <span
@@ -88,7 +88,7 @@ export default function Projects() {
               ))}
             </div>
 
-            {/* Links */}
+           
             <div className="flex gap-4 mt-auto">
               <a
                 href={p.github}

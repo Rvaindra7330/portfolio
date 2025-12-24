@@ -19,7 +19,7 @@ export default function Contact() {
 
     if (res.ok) {
      setLoading(false)
-     toast.success("Thanks for contacting.I will get in touch with you in short")
+     toast.success("Thanks for contacting.I will get in touch with you shortly!")
       setEmail("");
       setMessage("");
     } else {

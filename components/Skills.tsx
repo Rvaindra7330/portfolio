@@ -2,7 +2,7 @@ export default function Skills() {
   const skills = [
     "NextJS","ReactJS","JavaScript","TypeScript",
     "Prisma","Postgres","Tailwind","NodeJS",
-    "Express","Git","Turborepo","Redis","Docker",
+    "Express","Git","Turborepo","Redis","Docker","Solidity","Hardhat","Ethers.js",
   ];
 
   return (
